@@ -1,0 +1,193 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FARM/DaoLaunchFarm.sol": "DetailedERC20"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC1155/DaoLaunchERC1155.sol": {
+			"keccak256": "0xd34115691364f63c224630c634c76f55640e0184d165b5c74db6d5e912cf1e1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://305dc97990a1a945022deeea4f2a580ba80b2d81d92f529ac228de302ea5fd31",
+				"dweb:/ipfs/QmP3SKG7kqWeDydU1hciV7A4VJmrkwXw5hx6qRUqhmVUPL"
+			]
+		},
+		"ERC1155/ERC1155.sol": {
+			"keccak256": "0x690c3f5092d8f3dc5622dd83d16e7ec5d5829a056bd1eca3e8d4c1aea7dc54bf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://586cdabe51ff627014e5723042d16c13a84bc679b84ddbb224bdd3b86167386d",
+				"dweb:/ipfs/QmYQiTwYvJqsFxtbpBcr4iSY6Pp5KxnogeQ6RzEmk1nB83"
+			]
+		},
+		"ERC1155/IERC1155.sol": {
+			"keccak256": "0xc94d91954d3c95838f393b9eafde242004a4ddb95fd01e50638e5eec3578b0fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://67fb7e23a50e7bbaf8acc018d3395da3b73446fe6446dc60b0b2f3f72d6bd0f8",
+				"dweb:/ipfs/QmUD9gqbiowYTU7KNJBjcZPndxYwkLhbifmd7SKJAPjVj1"
+			]
+		},
+		"ERC1155/IERC1155MetadataURI.sol": {
+			"keccak256": "0x98f51fcfa39b58ed90352217aa4900ec770f83a9fdec91780a45d61de4ad509e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f0abccd310896a4da19f116c24a9eb4326bb187e7be18d3dfa0a631bacc912ef",
+				"dweb:/ipfs/QmUxcVJ6zLuKsUax32wDNYwzZtdxmeQu91Ph4WXKmLeQeb"
+			]
+		},
+		"ERC1155/IERC1155Receiver.sol": {
+			"keccak256": "0x39968d537f534767c3be8a24bb194d6fbf580b36f8cd60aed014546296182826",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://10f1f0d7a7dcd6a98a46db9db660c223c3f3eaad128cc9ec7c710272449e6a4d",
+				"dweb:/ipfs/QmYMDNt3VwHKpCsawNiGiN6eybTEqi24WPmBMuPthNKHQC"
+			]
+		},
+		"FARM/DaoLaunchFarm.sol": {
+			"keccak256": "0x3f60cff48e5bea8a876b25edc46ce25f43a325dea6ecb92e351737db77492935",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4bbd72627d6243dcd2b277c329ec067093437e90328b4def62c0cc24623a4058",
+				"dweb:/ipfs/QmVmGtLPXtvzHFqwUuzFiqMufbeGTCzmNNgsv2fcD5Po3Y"
+			]
+		},
+		"common/Address.sol": {
+			"keccak256": "0x069b2631bb5b5193a58ccf7a06266c7361bd2c20095667af4402817605627f45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a4c96fafff76deda5697c3c5c98cade6e6e1b178254544c106bf360c079ce4e",
+				"dweb:/ipfs/QmXmxubE3jnatFgZuN8ay1VV6hZ8WRmhvUjNpeVjki15HX"
+			]
+		},
+		"common/Context.sol": {
+			"keccak256": "0xf930d2df426bfcfc1f7415be724f04081c96f4fb9ec8d0e3a521c07692dface0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fc2bfdea0d2562c76fb3c4cf70a86c6ba25c5a30e8f8515c95aafdf8383f8395",
+				"dweb:/ipfs/QmTbFya18786ckJfLYUoWau9jBTKfmWnWm5XSViWvB7PXN"
+			]
+		},
+		"common/ERC165.sol": {
+			"keccak256": "0x5718c5df9bd67ac68a796961df938821bb5dc0cd4c6118d77e9145afb187409b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d10e1d9b26042424789246603906ad06143bf9a928f4e99de8b5e3bdc662f549",
+				"dweb:/ipfs/Qmejonoaj5MLekPus229rJQHcC6E9dz2xorjHJR84fMfmn"
+			]
+		},
+		"common/IERC165.sol": {
+			"keccak256": "0xa28007762d9da9db878dd421960c8cb9a10471f47ab5c1b3309bfe48e9e79ff4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://796ab6e88af7bf0e78def0f059310c903af6a312b565344e0ff524a0f26e81c6",
+				"dweb:/ipfs/QmcsVgLgzWdor3UnAztUkXKNGcysm1MPneWksF72AvnwBx"
+			]
+		},
+		"common/Ownable.sol": {
+			"keccak256": "0xc503d952d009b2b54ed4065aaef31342233ebb0298dfbf5bafa6e34ee98a3828",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://41f56eccba35d701790f3030ba5b349520bc24d5883d89bc6a20d26f2deb3ed8",
+				"dweb:/ipfs/QmXu1AdjVRk6VTKvu7x8z8Ep8iLsuoR8ygY6bT2NNLbmHi"
+			]
+		},
+		"common/SafeMath.sol": {
+			"keccak256": "0xae6e482cc847d74a2935b3d10e5e84ba66a2e098ec4d1ad59b504e4d3603097b",
+			"urls": [
+				"bzz-raw://1cb08ddd27bb04043763bcc4ea63b7e814ebf67856ef385826f3a1462ec24606",
+				"dweb:/ipfs/QmeJ2u3f4GUsvzYwZW9ZSDbpHPFSAYKyangHwSTvjpRQXc"
+			]
+		},
+		"common/Strings.sol": {
+			"keccak256": "0x456e9b3a2bfe189b5249857f624f4139e59331db518483b456c4e587a20552e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1123c9545decc48a011370ebab4bf53dda98524fa21f9498e68851ba8f0ffc0f",
+				"dweb:/ipfs/QmUpgMg8EFDnv87ePKUjXxXpJT3qwHRj9VDNSnRxu7T9sy"
+			]
+		}
+	},
+	"version": 1
+}
